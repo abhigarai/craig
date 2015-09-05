@@ -1,0 +1,44 @@
+<!-- 
+
+This is the default pop-up page of the Extension
+
+The header section registers the java-scripts that are called on click of the buttons
+available on the page based on their ids of the button
+
+There are 4 links available each providing the below functionalities through javascripts 
+registerd for on-click events
+
+1. Display the content originTracker
+2. Display all the available links
+3. Display specific statistics
+4. Option to Download All the available links
+
+The default java-script popup.js is called on-click of the Extension button
+
+-->
+
+<!doctype html>
+<html>
+	<head>
+		<title>Final Project Extension - Origin Tracker</title>
+		
+		<script src="../js/scripts/jquery.js"></script>
+		
+		
+		<script src="../js/SettingsManager.js"></script>
+		<script src="../js/Export.js"></script>
+		<script src="../js/show.js"></script>
+		<script src="../js/count.js"></script>
+		
+		<script type="text/javascript" src="popup.js"></script>
+		
+	</head>
+	<body>
+		<center> <div class="logo"><img src="../images/originTracker.png"></div></center>
+		<center><div><button id="trackOrigin">CONTENT ORIGIN</button></div></center>
+		<center><div><a href="javascript:void(0)" id="show-all-link">AVAILABLE LINKS</a></div></center>
+		<center><div><a href="javascript:void(0)" id="links-count">STATISTICS</a></div></center>
+		<div><center><a href="javascript:void(0)" id="all-links">DOWNLOAD LINKS</a></center></div>
+	</body>
+</html>
+

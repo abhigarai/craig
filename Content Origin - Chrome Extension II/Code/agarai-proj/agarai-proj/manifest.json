@@ -1,0 +1,29 @@
+// Manifest.html
+// This file registers all the necessary permissions for the Extension and the required java-script for the background page
+// Also, registers the default images, titles and the pop-up page of the Extension  
+{
+	"update_url": "https://clients2.google.com/service/update2/crx",
+
+	"manifest_version": 2,
+	"name":        "Final Project Extension",
+	"version":     "2.3",
+	"description": "Content Origin Tracker",
+	"background": 
+	{
+		"scripts":    ["js/scripts/jquery.js", "js/SettingsManager.js","js/allOriginsDisplay.js","js/countLinks.js"],
+		"persistent": false
+	},
+	"icons": {
+		"16":  "images/originTracker.png",
+		"48":  "images/originTracker.png",
+		"128": "images/originTracker.png" 
+	},
+	"browser_action" : {
+		"default_icon" :  "images/originTracker.png",
+		"default_title" : "Final Project Extension",
+		"default_popup":  "popup.html"
+	},
+	"permissions": [
+		"tabs", "bookmarks", "http://*/*", "https://*/*", "storage", "contextMenus"
+	]
+}

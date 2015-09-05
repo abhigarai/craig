@@ -1,0 +1,31 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+   "background": {
+      "persistent": false,
+      "scripts": ["colorTransform.js"]
+   },
+   "browser_action": {
+      "default_icon": "hw-icon2.png",
+      "default_popup": "popup.html",
+      "default_title": "HomeWork 1 Tasks"
+   },
+   "description": "Basic Tasks",
+   "icons": {
+			"16": "hw-icon2.png",
+           "48": "hw-icon2.png",
+          "128": "hw-icon2.png"
+   },
+   "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["myscript.js"],
+	  "run_at": "document_end"
+    }
+  ],
+   "manifest_version": 2,
+   "version": "1.2.1",
+   "name": "HomeWork 1 Tasks",
+   "permissions": [ "tabs", "storage", "http://*/*", "https://*/*" ],
+   "version": "2.70"
+}

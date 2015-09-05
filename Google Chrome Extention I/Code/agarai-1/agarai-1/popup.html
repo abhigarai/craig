@@ -1,0 +1,90 @@
+<!-- 
+
+The page contains a display of the words "Hello World"
+
+It contains two buttons one for new-tab and the other for new-window that opens google.com on a new tab and window respectively.
+
+Then it contains a thumbs-up image which is a button and on-click of it calls a function in the registered js that accesses the local storage counter
+value and increments it.
+
+Further it contains a color-box on click changes the bg color of the page by calling a js.
+
+
+
+-->
+
+<!Doctype html>
+<html>
+<head>
+<title>HomeWork 1 Tasks</title>
+<style type="text/css">
+	div#color-box{
+		width:400px;
+		height:30px;
+	}
+	div#color-box div{
+		width:25px;
+		height:25px;
+		float:left;
+		border: 1px solid #001100;
+		margin:1px;
+	}
+	
+	div.violet{background-color:#9900CC;}
+	div.indigo{background-color:#0033FF;}
+	div.green{background-color:#3366FF;}
+	div.blue{background-color:#FFFF00;}
+	div.yellow{background-color:#00FF00;}
+	div.orange{background-color:#FF6600;}
+	div.red{background-color:#FF0000;}
+	div.pink{background-color:#FF00CC;}
+	div.black{background-color:#000000;}
+	div.palegreen{background-color:#FFFFFF;}
+	div.white{background-color:#00CC99;}
+    div.grey{background-color: #999999;}
+	div.focus{box-shadow: 0px 0px 1px 2px #9ACD32;}
+	input#opRange{width:97%;}
+</style>
+<script type="text/javascript" src="colorTransform.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+	<div id="task1">
+	<table border="0" cellpadding="10">
+	  <tr>
+        <td>
+          <h1>"Hello, World" </h1>
+        </td>
+      </tr>
+	  <tr>
+        <td>
+          <button id="newTab">New Tab</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button id="newWindow">New Window</button>
+        </td>
+      </tr>
+      <tr>
+		<td>
+          <button type="button" id="clickCount"><img src="thumbs-up.png" height="200" width="200"></button>
+        </td>
+        <td>
+		  <p id="counter">Counter</p>
+        </td>
+      </tr>
+    </table>
+	</div>
+	<div id="color-box">
+		<div class="colorbox violet" title="violet"></div>
+		<div class="colorbox indigo" title="indigo"></div>
+		<div class="colorbox green" title="green"></div>
+		<div class="colorbox blue" title="blue"></div>
+		<div class="colorbox yellow" title="yellow"></div>
+        <div class="colorbox orange" title="orange"></div>
+		<div class="colorbox red" title="red"></div>
+		<div class="colorbox pink" title="pink"></div>
+		<div class="colorbox black" title="black"></div>
+		<div class="colorbox palegreen" title="palegreen"></div>
+        <div class="colorbox white" title="white"></div>
+		<div class="colorbox grey" title="grey"></div>
+	</div>
+</body>
+</html>
