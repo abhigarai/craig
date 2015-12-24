@@ -1,0 +1,38 @@
+Web Privacy Negotiation
+1.Example:
+Amazon: 
+First visit Amazon and want buy something. You need an account for future online shopping. Also, Amazon doesn’t allow the client to purchase as a guest.
+While registering an account,you type name, phone number, address and so on.
+Then you can use this account to buy some goods. And Amazon provide good service to 
+you.
+The information disclosed by the user are stored into the DB of Amazon and they don’t have  any control on these information.
+Good Example:For example, Amazon can use the large amount of information from the users and analyze it. Then Amazon can recommend future purchase to users through these analysis.
+Bad Example: Amazon stores the information from user into its DB. But there is a risk of information leakage.
+
+2.Abstraction(The Problem):
+The users disclose their personal Info without having any control on the flow of info.
+But the user still want to use the service from the Amazon.
+They have to lose some information in order to use the service of Amazon.
+And there are different types of users and servers. Also, different types of users will trust the servers in different levels.
+
+How will the user balance the disclosure of the amount of personal info and the service provided by Amazon?
+There should be negotiation between the clients and the servers.
+
+3.Technical Part.
+
+
+1. Example:
+When a customer visit the website of Amazon and he also wants to buy something on this website. Then, he needs to register an account for the online shopping through Amazon. Also, the Amazon doesn’t allow the customer to purchase as a guest. While registering an account, the customer has to type into some personal information, such as name, cellphone number, address and so on. Also, because of the use of Internet, Amazon can get customer’s IP address and through customer’s IP address, Amazon can get your location too. After registering your account of Amazon, you can use this account to buy something on the Amazon website. If you ordered something and paid money for them, Amazon will mail the goods you ordered to you in time. In this real-world example, the customer need to disclose his personal information to Amazon. These information can be classified into two classes:the explicit information and implicit information. The information provided by the customer for registering an account is considered as explicit information and the customer has completely known these information he provided to Amazon. The information extracted by Amazon, which is unknown to the customer, is implicit information. The customer cannot control the amount of explicit information he gives to the Amazon. 
+
+2. The customer receives some services while losing some of his explicit information. In this particular case, the customer incurs some amount of cost by providing the explicit information and correspondingly benefits from the services provided by the Amazon. So, how will the customer balance this cost and benefit? How will the customer get the most benefits with relatively lowest cost? To deal with these problems, the customer has the options to negotiate with Amazon. Here, we used a model of Web Privacy Negotiation. In this model, we used client as the customer and server as the Amazon. We also used the data items as the explicit information disclosed by the client. These data items have different values for server and client, because both the server and client have different trust type and weight of these data items. Based on the number of the data items, we can get different combinations of data items. We called these different combinations proposals. The client will calculate the surplus by using the difference between the benefits it gets from the content provided by the server and the cost of providing these data items(explicit information). The server will calculate the surplus by using the difference between the cost of providing the contents to client and the benefits from getting the data items. If the server provides the first proposal to client, the client will justify this offer by evaluating the surplus of this proposal. If the value of this proposal satisfies client, the client will receive this proposal and this negotiation is successful. If the value of this proposal doesn’t satisfy client, client will refuse this proposal and it will offer its own proposal to server. Then server will do the evaluation process which is relatively same to the client. This process of negotiation will be showed below:
+
+3.Technical
+In our research, we wrote a Java program to simulate this negotiation process. And we also made several assumptions in this research: 
+1.the Client has 3 different trust types, and the server has 2 different trust types. 
+2. Both the client and the server have their own value sets(weight) for the same data items. 
+3. Both the client and the server have 4 different kinds of concession behaviors which are various ways of sending proposals to each other including “from the smallest value to the highest value”, “from the highest value to the smallest value”, “from the value that is nearest to their mean” and “random” which means this behavior will be chosen randomly from the previous 3 different behaviors.
+ 4. In this research, we used 5 data items. 
+5.The client’s values of these data items and the server’s values of these data items will be generated respectively by multiplying their trust type and weight which are randomly selected. Based on these assumptions, we used this java program to simulate this negotiation to get two different statistical results. The pictures are showing below. The first is that we run the program for 1 million times for each strategy combination(client and server). From the first picture, we can see that when both the client and server chose “from the smallest value to the highest value”, this concession behavior will result in the highest successful rate of negotiation. In the second picture, the feasible means that before the negotiation, it seems like that this negotiation will be successful in terms of the surplus of different proposals. The actual means that in real results, there are such number of negotiations that are successful. The second picture shows the ratio of the actual and the feasible.
+
+4. Conclusion
+From the research results showed in the third part, we can conclude that when the client and the server both chose “from the smallest value to the highest value”, it will be the most easiest way to reach an successful negotiation. In this specific case, the client can get a most satisfying service from the server with relatively the lowest cost that the client can accept and for the server, it also can get the user’s personal information with the relatively reasonable cost which is providing service to the client. This is our conclusion for this research. And the important thing is that what is our contribution of this research to the real world. 
