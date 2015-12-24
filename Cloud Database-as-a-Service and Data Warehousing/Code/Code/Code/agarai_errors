@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/undertow/http2-test-suite/src/main/resources/backup/steps/check.py", line 91, in <module>
+    hname = data['name']
+TypeError: 'NoneType' object has no attribute '__getitem__'
