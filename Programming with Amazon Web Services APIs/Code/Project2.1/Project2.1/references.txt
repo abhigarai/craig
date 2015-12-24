@@ -1,0 +1,17 @@
+Links:
+
+piazza.com
+http://docs.aws.amazon.com/AWSEC2/latest/CommandLineReference/ApiReference-cmd-DescribeInstanceStatus.html
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring-instances-status-check.html
+http://ini4j.sourceforge.net/apidocs/org/ini4j/Options.html
+http://ini4j.sourceforge.net/tutorial/IniTutorial.java.html
+http://ini4j.sourceforge.net/sample/dwarfs.ini.html
+http://ini4j.sourceforge.net/sample/index.html
+http://grepcode.com/file/repo1.maven.org/maven2/org.jvnet.hudson.plugins.mercurial/ini4j/0.2.6/org/ini4j/Ini.java#Ini.remove%28org.ini4j.Ini.Section%29
+http://stackoverflow.com/questions/9241584/get-public-dns-of-amazon-ec2-instance-from-java-api
+http://stackoverflow.com/questions/8828964/getting-state-of-ec2-instance-java-api
+http://stackoverflow.com/questions/7652247/ec2-java-api-wait-till-ec2-instance-gets-created
+http://stackoverflow.com/questions/3342651/how-can-i-delay-a-java-program-for-a-few-seconds
+http://stackoverflow.com/questions/17509781/how-to-read-last-line-in-a-text-file-using-java
+http://stackoverflow.com/questions/190629/what-is-the-easiest-way-to-parse-an-ini-file-in-java
+
