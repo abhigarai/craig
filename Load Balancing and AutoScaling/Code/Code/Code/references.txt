@@ -1,0 +1,8 @@
+References:
+
+Java API AWS Documentation
+Reference code from the previous projects
+Refernce Links given in the writeup.
+
+Andrew ids:
+Support from the TAs.
