@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Creating ACLs</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_11_1_3a.swf">
+			<DESCRIPTION>Complete the Drag and Drop exercise.<BR/><BR/>Create an access list that will deny access to all hosts in the network 172.16.1.0/24. You want to allow all others access to the network.<BR/><BR/>Now choose an interface and apply the access list to that interface in the outbound direction.<BR/><BR/>When done, click the check button. If correct, the next step occurs. If incorrect, the error will be highlighted in red. You may use the check button to test the ACL line-by-line.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_11_1_3b.swf">
+			<DESCRIPTION>In some cases, there can be several ways to configure ACLs on a router. In this example, the student will deny access to the 172.16.0.0/16 network but allow all other hosts and the host 172.16.1.1 access. One way to do this is:<BR/>
+access-list 2 deny 172.16.1.0  0.0.255.255<BR/>
+access-list 2 deny 172.16.1.1  0.0.255.255<BR/><BR/>
+
+Now demonstrate your understanding of configuring ACLs by creating three command that have the same result:<BR/>
+1. Deny access to the 172.16.0.0/16 network.<BR/>
+2. Allow host 172.16.1.1 to access the local network.<BR/>
+3. Allow all other hosts to access the local network.
+<BR/><BR/>Now choose an interface and apply the access list to that interface in the outbound direction.<BR/><BR/>When done, click the check button. If correct, the next step occurs. If incorrect, the error will be highlighted in red. You may use the check button to test the ACL line-by-line.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_11_1_3c.swf">
+			<DESCRIPTION>In this example, the student will only allow access to the 172.0.0.0/8 network. One way to do this is:<BR/>
+access-list 2 permit 172.16.0.0 0.255.255.255<BR/>
+access-list 2 permit 172.16.1.0 0.255.255.255<BR/>
+access-list 2 permit 172.16.1.1 0.255.255.255<BR/><BR/>
+
+Now demonstrate your understanding of configuring ACLs by creating one command that has the same result, only the 172.0.0.0/8 is allowed access to the network.<BR/><BR/>Now choose an interface and apply the access list to that interface in the outbound direction.<BR/><BR/>When done, click the check button. If correct, the next step occurs. If incorrect, the error will be highlighted in red. You may use the check button to test the ACL line-by-line.</DESCRIPTION>
+		</STEP>
+
+
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

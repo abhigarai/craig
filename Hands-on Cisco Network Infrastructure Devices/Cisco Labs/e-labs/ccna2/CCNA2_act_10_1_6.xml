@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>TCP Sliding Windows</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_10_1_6.swf">
+			<DESCRIPTION>Sliding windows are used to negotiate the amount of data a sender will send before expecting an acknowledgment.  In this scenario, the window size is 3.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

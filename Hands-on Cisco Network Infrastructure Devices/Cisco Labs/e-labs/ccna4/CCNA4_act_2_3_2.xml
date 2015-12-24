@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>WAN Design Steps</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA4_act_2_3_2.swf">
+			<DESCRIPTION>Select the correct statement from the column on the right and drop each statement into the appropriate flow chart box.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

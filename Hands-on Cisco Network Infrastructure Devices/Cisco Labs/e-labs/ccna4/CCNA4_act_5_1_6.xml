@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>LMI Message Format Identification</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA4_act_5_1_6.swf">
+			<DESCRIPTION>As with any packet, LMI messages follow a certain format.  Arrange the provided LMI message fields into the proper order.   </DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

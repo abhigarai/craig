@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Spanning-Tree Protocol</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA3_act_7_2_2_2a_en.swf">
+			<DESCRIPTION>Spanning-Tree protocol is a bridge protocol that utilizes the spanning-tree algorithm, enabling a learning bridge to dynamically work around loops in a network topology by creating a spanning tree.<BR/><BR/>Bridges exchange BPDU messages with other bridges to detect loops, and then remove the loops by shutting down selected bridge interfaces.<BR/><BR/>Spanning-Tree Protocol refers to both the IEEE 802.1 Spanning-Tree Protocol standard and the earlier Digital Equipment Corporation Spanning-Tree Protocol upon which it is based.<BR/><BR/>The IEEE version supports bridge domains and allows the bridge to construct a loop-free topology across an extended LAN.<BR/><BR/>The IEEE version is generally preferred over the Digital version.</DESCRIPTION>
+		</STEP>
+<STEP SRC="CCNA3_act_7_2_2_2b_en.swf">
+			<DESCRIPTION>A redundant link on a network can create unintended bridging loops.<BR/><BR/>Spanning tree protocol block certain ports to prevent a bridging loops.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

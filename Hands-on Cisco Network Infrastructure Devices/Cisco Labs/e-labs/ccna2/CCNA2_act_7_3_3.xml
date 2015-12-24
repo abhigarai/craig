@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>IGRP Routes</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_7_3_3.swf">
+			<DESCRIPTION>Move your cursor over the checkbox associated with your choice and click.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

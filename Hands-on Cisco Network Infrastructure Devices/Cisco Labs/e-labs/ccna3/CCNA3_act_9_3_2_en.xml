@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Inter-VLAN Routing</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA3_act_9_3_2a_en.swf">
+			<DESCRIPTION>VLANs create broadcast domains.<BR/><BR/>A host on one VLAN cannot directly communicate with a host on another VLAN. <BR/><BR/>A Layer 3 device is needed to provide routing between VLANs.<BR/><BR/>A trunk link can be connected to a router to create inter-VLAN routing.<BR/><BR/>In this activity the student will trace the path a packet takes through a network with inter-VLAN routing.<BR/><BR/>Select the path the packet would take from the source to the destination.<BR/><BR/>Drag the device in the correct order from first to last.<BR/><BR/>Select no path if no path is available.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_9_3_2b_en.swf">
+			<DESCRIPTION>Select the path the packet would take from the source to the destination.<BR/><BR/>Drag the device in the correct order from first to last.<BR/><BR/>Select no path if no path is available.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_9_3_2c_en.swf">
+			<DESCRIPTION>Select the path the packet would take from the source to the destination.<BR/><BR/>Drag the device in the correct order from first to last.<BR/><BR/>Select no path if no path is available.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_9_3_2d_en.swf">
+			<DESCRIPTION>Select the path the packet would take from the source to the destination.<BR/><BR/>Drag the device in the correct order from first to last.<BR/><BR/>Select no path if no path is available.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

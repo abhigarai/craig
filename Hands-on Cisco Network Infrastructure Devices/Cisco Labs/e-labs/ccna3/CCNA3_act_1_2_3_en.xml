@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>RIP v1 and RIP v2 Comparison</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA3_act_1_2_3_en.swf">
+			<DESCRIPTION>Identify whether the attribute belongs to RIP v1, RIP v2, or if it applies to both.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

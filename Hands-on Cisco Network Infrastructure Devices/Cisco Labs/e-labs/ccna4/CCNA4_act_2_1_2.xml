@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>WAN Devices and Interfaces</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA4_act_2_1_2.swf">
+			<DESCRIPTION>Select a column or row in the puzzle. Once selected, the row or column will be shaded green. Then, type the appropriate characters from the keyboard to complete the puzzle.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

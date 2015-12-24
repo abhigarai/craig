@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE><font face="courier new"><b>show interfaces</b></font> Command</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_9_3_2.swf">
+			<DESCRIPTION>The <font face="courier new"><b>show interfaces</b></font> command can be used to troubleshoot a network issue. Drag and drop the object that matches the interface and the protocol.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

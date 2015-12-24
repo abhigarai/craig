@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Connecting LAN Interfaces</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_1_2_6.swf">
+			<DESCRIPTION>Making a connection between a router and a hub requires certain pieces of equipment.  
+
+Select the three components needed to make a LAN/Ethernet connection and drag and drop them into the order in which they would be connected.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

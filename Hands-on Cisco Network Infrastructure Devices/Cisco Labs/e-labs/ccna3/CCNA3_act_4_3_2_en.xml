@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Switching Method Trigger Points</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA3_act_4_3_2_en.swf">
+			<DESCRIPTION>Identify the trigger points of different switching methods.<BR/><BR/>Drag and drop the switching method into the correct location.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

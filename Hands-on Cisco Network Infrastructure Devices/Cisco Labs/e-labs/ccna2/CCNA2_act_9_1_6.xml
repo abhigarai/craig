@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Route Metric</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_9_1_6.swf">
+			<DESCRIPTION>Route metrics are used to determine the best path to a destination. Calculate the best metric from the given source to the given destination and select the value from the Metric Value table. Then place the routers on the right in the boxes to indicate the best path.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_1_6a.swf">
+			<DESCRIPTION>Route metrics are used to determine the best path to a destination. Calculate the best metric from the given source to the given destination and select the value from the Metric Value table. Then place the routers on the right in the boxes to indicate the best path.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_1_6b.swf">
+			<DESCRIPTION>Route metrics are used to determine the best path to a destination. Calculate the best metric from the given source to the given destination and select the value from the Metric Value table. Then place the routers on the right in the boxes to indicate the best path.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

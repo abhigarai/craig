@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Connecting WAN Interfaces</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_1_2_7.swf">
+			<DESCRIPTION>Connecting two routers together via WAN serial interfaces requires certain pieces of equipment to be connected in the proper order.  
+
+Choose the correct equipment necessary to connect two routers via WAN serial interfaces and place them in the order that they should be connected.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

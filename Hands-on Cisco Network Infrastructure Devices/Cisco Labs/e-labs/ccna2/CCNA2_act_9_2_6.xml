@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Telnet</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_9_2_6a.swf">
+			<DESCRIPTION>Telnet can be used to connect to a router to troubleshoot a network outage. It is very important to know which address or sequence of addresses to use to connect to a router.<BR/><BR/>You are on Workstation A and you need to troubleshoot the configuration on Router C. Routing is not enabled on the routers yet. To Telnet to Router B, which IP addresses can you use?<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_2_6b.swf">
+			<DESCRIPTION>From your telnet session on Router B, you need to troubleshoot the configuration on Router C. Routing is not enabled on the routers yet. Which IP addresses can you use to telnet to Router A?<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_2_6c.swf">
+			<DESCRIPTION>You are on Workstation B and you need to troubleshoot the configuration on Router B. Routing is not enabled on the routers yet. To telnet to Router C, which IP addresses can you use?<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_2_6d.swf">
+			<DESCRIPTION> From your telnet session on Router A, you need to troubleshoot the configuration on Router B. Routing is not enabled on the routers yet. Which IP addresses can you use to telnet to Router B?</DESCRIPTION>
+		</STEP>
+ 	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

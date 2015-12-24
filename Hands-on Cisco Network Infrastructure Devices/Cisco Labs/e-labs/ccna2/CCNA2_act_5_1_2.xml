@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>How A Cisco Device Locates And Loads IOS</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_5_1_2.swf">
+			<DESCRIPTION>Cisco devices go through a four step process to locate and load IOS software.
+
+Place the steps in the process in the correct order.
+
+Remember that if the device finds an IOS at any step in the process, the process is stopped and the IOS is loaded.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

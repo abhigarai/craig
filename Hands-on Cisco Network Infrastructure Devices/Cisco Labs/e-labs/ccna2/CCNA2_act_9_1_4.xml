@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>L2 and L3 Addresses</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_9_1_4a.swf">
+			<DESCRIPTION>Both physical and logical addresses are required for communication to occur between two hosts on a network.  Drag the correct physical and logical addresses to forward the frame from computer A to computer D.  Some or all the addresses might change at each hop along the way.  Make the correct selection at each hop.<BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_1_4b.swf">
+			<DESCRIPTION>Both physical and logical addresses are required for communication to occur between two hosts on a network.  Drag the correct physical and logical addresses to forward the frame from computer A to computer D.  Some or all the addresses might change at each hop along the way.  Make the correct selection at each hop.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_1_4c.swf">
+			<DESCRIPTION>Both physical and logical addresses are required for communication to occur between two hosts on a network.  Drag the correct physical and logical addresses to forward the frame from computer A to computer D.  Some or all the addresses might change at each hop along the way.  Make the correct selection at each hop.</DESCRIPTION>
+		</STEP>
+		
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

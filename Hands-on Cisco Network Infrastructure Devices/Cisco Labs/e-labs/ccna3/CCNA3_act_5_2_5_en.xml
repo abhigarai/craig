@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>The Three-Layer Design Model</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA3_act_5_2_5a_en.swf">
+			<DESCRIPTION>Cisco's network design layered model contains three layers; core, distribution, and access. Each layer has a specific role and function.<BR/><BR/>In this activity, decide if the scenario describes the function of the access layer, core layer, or distribution layer.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_5_2_5b_en.swf">
+			<DESCRIPTION>An access control list is implemented to prevent unnecessary network traffic on the backbone network.<BR/><BR/>Is this an access layer function, core layer function, or distribution layer function?<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_5_2_5c_en.swf">
+			<DESCRIPTION>A telecommuter connects to headquarters through a modem connection.<BR/><BR/>Is this an access layer function, core layer function, or  distribution layer function?<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_5_2_5d_en.swf">
+			<DESCRIPTION>Two main offices are connected over a T1 connection.<BR/><BR/>Is this an access layer function, core layer function, or distribution layer function?<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_5_2_5e_en.swf">
+			<DESCRIPTION>2900 switches are being used to connect end users to the network.<BR/><BR/>Is this an access layer function, core layer function, or distribution layer function?<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_5_2_5f_en.swf">
+			<DESCRIPTION>Catalyst 6000 switches are being used for inter-vlan routing.<BR/><BR/>Is this an access layer function, core layer function, or distribution layer function?<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_5_2_5g_en.swf">
+			<DESCRIPTION>Two sites are being connected and the main goal is fast packet switching. No packet filtering or manipulation is desired.<BR/><BR/>Is this an access layer function, core layer function, or distribution layer function?<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_5_2_5h_en.swf">
+			<DESCRIPTION>OSPF is the routing protocol and route summarization is to be implemented.<BR/><BR/>Is this an access layer function, core layer function, or distribution layer function?<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

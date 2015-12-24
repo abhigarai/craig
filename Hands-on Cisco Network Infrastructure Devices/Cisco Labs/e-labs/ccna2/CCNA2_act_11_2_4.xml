@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>ACL Placement</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_11_2_4a.swf">
+			<DESCRIPTION>Select the best location to place the ACL for the given scenario and decide if it is going to be inbound or an outbound ACL.<BR/>Scenario:<BR/>You are using a standard  access list and you want to block all users from the 172.16.1.0 network from accessing the 192.168.1.96 network.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_11_2_4b.swf">
+			<DESCRIPTION>Scenario:<BR/>You are using a standard  access list and you want to block all users from the 172.16.0.0/16 network from accessing the 192.168.1.32/27 network.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_11_2_4c.swf">
+			<DESCRIPTION>Scenario:<BR/>You are using a extended access list and you want to block all users from the 192.168.1.96/27 network from accessing the 192.168.1.32/27 network.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_11_2_4d.swf">
+			<DESCRIPTION>Scenario:<BR/>You are using a extended  access list and you want to block all users from the 192.168.1.0/24 network from accessing the 172.16.1.0/24 network.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_11_2_4e.swf">
+			<DESCRIPTION>Scenario:<BR/>You are using a extended  access list and you want to block all users from the 172.16.0.0/16 network from accessing the 192.168.1.32/27 network.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+ 	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Network Testing</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA2_act_9_2_1a.swf">
+			<DESCRIPTION>Identify the design layer which is causing the problem.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_2_1b.swf">
+			<DESCRIPTION>Identify the design layer which is causing the problem.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_2_1c.swf">
+			<DESCRIPTION>Identify the design layer which is causing the problem.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_2_1d.swf">
+			<DESCRIPTION>Identify the design layer which is causing the problem.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_2_1e.swf">
+			<DESCRIPTION>Identify the design layer which is causing the problem.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA2_act_9_2_1f.swf">
+			<DESCRIPTION>Identify the design layer which is causing the problem.<BR/><BR/>When done, click the Check button.</DESCRIPTION>
+		</STEP>
+ 	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

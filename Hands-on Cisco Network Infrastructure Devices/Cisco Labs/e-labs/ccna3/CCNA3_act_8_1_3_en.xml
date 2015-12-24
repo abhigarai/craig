@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>VLAN Operation </SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA3_act_8_1_3a_en.swf">
+			<DESCRIPTION>Select the path the packet would take from the source to the destination. <BR/>Drag the device in the correct order from first to last. <BR/>Select no path if no path is available.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_8_1_3b_en.swf">
+			<DESCRIPTION>Select the path the packet would take from the source to the destination. <BR/>Drag the device in the correct order from first to last. <BR/>Select no path if no path is available.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_8_1_3c_en.swf">
+			<DESCRIPTION>Select the path the packet would take from the source to the destination. <BR/>Drag the device in the correct order from first to last. <BR/>Select no path if no path is available.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_8_1_3d_en.swf">
+			<DESCRIPTION>Select the path the packet would take from the source to the destination. <BR/>Drag the device in the correct order from first to last. <BR/>Select no path if no path is available.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

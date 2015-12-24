@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Basic Network Address Translation </SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA4_act_1_1_2.swf">
+			<DESCRIPTION>Drag the correct IP Address and place into the NAT Translation table. Host-A and Host-B are both communicating with the WWW server. Router-A is using dynamic NAT with a pool of addresses assigned by the ISP.<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

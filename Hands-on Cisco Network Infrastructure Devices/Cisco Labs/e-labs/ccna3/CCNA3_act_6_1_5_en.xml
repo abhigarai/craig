@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Switches and Collision Domains</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA3_act_6_1_5a_en.swf">
+			<DESCRIPTION>Switches provide many benefits to a network.<BR/><BR/>They reduce collisions by reducing the size of a collision domain.<BR/><BR/>Initially, switches monitor traffic and create a table of MAC addresses of all devices connected to it.<BR/><BR/>When a switch receives a frame, it checks the destination MAC address.<BR/><BR/>The switch now does a lookup of the MAC table, and if a match is found, only those frames are forwarded to the appropriate interface.<BR/><BR/>The switch prevents the frame from being forwarded through all ports, and reduces network traffic.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_6_1_5b_en.swf">
+			<DESCRIPTION>Please enter the number of collision domain(s).<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_6_1_5c_en.swf">
+			<DESCRIPTION>Please enter the number of collision domain(s).<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_6_1_5d_en.swf">
+			<DESCRIPTION>Please enter the number of collision domain(s).<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_6_1_5e_en.swf">
+			<DESCRIPTION>Please enter the number of collision domain(s).<BR/><BR/>When done, click the <B>Check</B> button.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ACTIVITY>
+	<TITLE>Activity</TITLE>
+	<SUBTITLE>Spanning-Tree States</SUBTITLE>
+	<STEPS BASE="1" BYSTEP="false">
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step01">
+			<DESCRIPTION>First the port is enabled or initialized and it moves to blocking mode.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step02">
+			<DESCRIPTION>If the port is faulty or disabled then it moves to disable state.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step03">
+			<DESCRIPTION>If the port becomes root port or designated port then it moves the listening state.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step04">
+			<DESCRIPTION>If the port is faulty or disabled then it moves to disable state.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step05">
+			<DESCRIPTION>If the port ceases to be a root port or designated port then it moves back to blocking state.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step06">
+			<DESCRIPTION>If the forwarding time expires then the switch port moves to the learning state.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step07">
+			<DESCRIPTION>If the port is faulty or disabled then it moves to disable state.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step08">
+			<DESCRIPTION>If the port ceases to be a root port or designated port then it moves back to blocking state.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step09">
+			<DESCRIPTION>If the forwarding time expires then the switch port moves to the forwarding state.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step10">
+			<DESCRIPTION>If the port is faulty or disabled then it moves to disable.</DESCRIPTION>
+		</STEP>
+		<STEP SRC="CCNA3_act_7_2_5_en.swf" ACTION="step11">
+			<DESCRIPTION>If the port ceases to be a root port or designated port then it moves back to blocking state.</DESCRIPTION>
+		</STEP>
+	</STEPS>
+	<MESSAGE>Congratulations, this activity has<BR/>been successfully completed.</MESSAGE>
+</ACTIVITY>
