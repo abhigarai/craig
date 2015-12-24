@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Project 4.3</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.js"></script>
+</head>
+<body>
+<fieldset style="font: 16px Arial, sans-serif; position:fixed; max-width: 200px">
+    <legend>Legend</legend>
+    <div style="border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; width: 20px; height: 20px; background: #E58; display:inline-block;">&nbsp;</div> Source pages randomly chosen<br>
+    <div style="border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; width: 20px; height: 20px; background: #79C; display:inline-block;">&nbsp;</div> Destination pages with top 10 pagerank values<br>
+    <div style="border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; width: 20px; height: 20px; background: #CCC; display:inline-block;">&nbsp;</div> Pages on the shortest path from sources to destinations<br>
+    * Node size is correlated to pagerank value<br>
+    ** Drag nodes to see them dancing :)
+</fieldset>
+<script type="text/javascript" charset="utf-8">
+var w = 1200, h = 640;
+var vis = d3
+    .select("body")
+    .append("svg:svg")
+    .attr("width", w)
+    .attr("height", h);
+
+var nodes = [];
+var links = [];
+var labelAnchors = [];
+var labelAnchorLinks = [];
+
+var updateLink = function() {
+    this.attr("x1", function(d) {
+        return d.source.x;
+    }).attr("y1", function(d) {
+        return d.source.y;
+    }).attr("x2", function(d) {
+        return d.target.x;
+    }).attr("y2", function(d) {
+        return d.target.y;
+    });
+}
+
+var updateNode = function() {
+    this.attr("transform", function(d) {
+        return "translate(" + d.x + "," + d.y + ")";
+    });
+}
+
+d3.json("/network.json", function(json) {
+    nodes = json.nodes;
+    links = json.links;
+    for(var i = 0; i < nodes.length; i++) {
+        nodes[i].size = 10 + Math.log(nodes[i].size);
+    }
+    for(var i = 0; i < nodes.length; i++) {
+        var node = nodes[i];
+        labelAnchors.push({node : node});
+        labelAnchors.push({node : node});
+    };
+
+    for(var i = 0; i < nodes.length; i++) {
+        labelAnchorLinks.push({
+            source : i * 2,
+            target : i * 2 + 1,
+        });
+    };
+    var force = d3.layout
+        .force()
+        .size([w, h])
+        .nodes(nodes)
+        .links(links)
+        .gravity(1)
+        .linkDistance(function(d) { 
+            return 40 + 5 * Math.log(d.source.size) + 5 * Math.log(d.target.size); 
+        })
+        .charge(-3000)
+        .linkStrength(4)
+        .start();
+
+    var force2 = d3.layout
+        .force()
+        .nodes(labelAnchors)
+        .links(labelAnchorLinks)
+        .gravity(0)
+        .linkDistance(0)
+        .linkStrength(8)
+        .charge(-100)
+        .size([w, h])
+        .start();
+
+    var link = vis
+        .selectAll("line.link")
+        .data(links)
+        .enter()
+        .append("svg:line")
+        .attr("class", "link")
+        .style("stroke", "#CCC");
+
+    var node = vis
+        .selectAll("g.node")
+        .data(force.nodes())
+        .enter()
+        .append("svg:g")
+        .attr("class", "node")
+        .append("svg:circle")
+        .attr("r", function(d) { return d.size } )
+        .style("fill", function(d) { 
+            if (d.t == "src") return "#E58"; 
+            if (d.t == "dst") return "#79C";
+            return "#CCC";
+        })        
+        .style("stroke", "#FFF")
+        .style("stroke-width", 3)
+        .call(force.drag);
+
+    var anchorLink = vis
+        .selectAll("line.anchorLink")
+        .data(labelAnchorLinks)
+
+    var anchorNode = vis
+        .selectAll("g.anchorNode")
+        .data(force2.nodes())
+        .enter()
+        .append("svg:g")
+        .attr("class", "anchorNode");
+    anchorNode
+        .append("svg:circle")
+        .attr("r", 0)
+        .style("fill", "#FFF");
+    anchorNode
+        .append("svg:text")
+        .text(function(d, i) { return i % 2 == 0 ? "" : d.node.label} )
+        .style("fill", "#555")
+        .style("font-family", "Arial")
+        .style("font-size", 12);
+
+    force.on("tick", function() {
+        force2.start();
+        node.call(updateNode);
+        anchorNode.each(function(d, i) {
+            if (i % 2 == 0) {
+                d.x = d.node.x;
+                d.y = d.node.y;
+            }
+        });
+        anchorNode.call(updateNode);
+        link.call(updateLink);
+        anchorLink.call(updateLink);
+    });
+
+});
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Project 4.3</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.js"></script>
+</head>
+<body>
+<h1>Welcome to Project 4.3!</h1>
+<h3>Test APIs:</h3>
+<p><a href="/top.json">/top.json</a></p>
+<p><a href="/path.json?source=0&dest=605008">/path.json?source=0&dest=605008</a></p>
+<p><a href="/network.json">/network.json</a></p>
+<h3>Visualized Shortest Paths:</h3>
+<p>Random path: <a href="/path">/path</a></p>
+<p>Random paths: <a href="/network">/network</a></p>
+<h3>Search Path by id:</h3>
+<form action="/path">
+<input type="text" name="source" placeholder="sourceId"><br>
+<input type="text" name="dest" placeholder="destId"><br>
+<input type="submit" value="Search">
+</form>
+<h3>Search Path by name:</h3>
+<form action="/path">
+<input type="text" name="source_title" placeholder="sourceNamePrefix"><br>
+<input type="text" name="dest_title" placeholder="destNamePrefix"><br>
+<input type="submit" value="Search">
+</form>
+</body>
+</html>
