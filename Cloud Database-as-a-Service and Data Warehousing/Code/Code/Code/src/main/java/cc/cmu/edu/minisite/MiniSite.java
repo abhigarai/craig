@@ -185,7 +185,7 @@ public class MiniSite {
                 		//To store the result 
                 		//Map resultMap=new HashMap();
                 		//Retrieving the credentials		
-                		BasicAWSCredentials bawsc = new BasicAWSCredentials("AKIAJWXXWM2L7TUJEWFA", "iLBrwX6x2zBp36vukFS9gz9yqLM/bk+p1isVOKc/");
+                		BasicAWSCredentials bawsc = new BasicAWSCredentials("", "");
                         //AmazonDynamoDBClient amazonDynamoDBClient = new AmazonDynamoDBClient(new ProfileCredentialsProvider());
                 		AmazonDynamoDBClient amazonDynamoDBClient = new AmazonDynamoDBClient(bawsc);
                 		amazonDynamoDBClient.setEndpoint("dynamodb.us-east-1.amazonaws.com");
