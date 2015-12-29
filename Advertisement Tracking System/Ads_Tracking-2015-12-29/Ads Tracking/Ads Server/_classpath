@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/tomcat-jdbc.jar/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/New folder/c3p0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/New folder/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/New folder/c3p0-0.9.2-pre1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/abhis_000/Desktop/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
